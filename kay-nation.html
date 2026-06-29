@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAY Nation — Forged in Iron</title>
+  <meta name="description" content="KAY Nation Gym — Raw ambition meets disciplined training. Located in Doraha, Punjab." />
+  <link rel="stylesheet" href="kay-nation.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════════════════ -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="#" class="navbar-logo">KAY <span>NATION</span></a>
+
+    <ul class="navbar-links">
+      <li><a href="#memberships">Memberships</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#trainers">Trainers</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#memberships" class="btn-join-nav">JOIN NOW</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<ul class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true">
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
+  <li><a href="#memberships">Memberships</a></li>
+  <li><a href="#schedule">Schedule</a></li>
+  <li><a href="#trainers">Trainers</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════════ -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-noise"></div>
+    <div class="hero-fade"></div>
+  </div>
+
+  <div class="hero-content">
+    <h1 class="hero-headline font-display">
+      FORGED IN <span>IRON</span>
+    </h1>
+    <p class="hero-sub">
+      Raw ambition meets disciplined training. Earn your reputation rep by rep.
+    </p>
+    <div class="hero-cta">
+      <a href="#memberships" class="btn-hero">
+        JOIN THE NATION
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     MEMBERSHIPS
+═══════════════════════════════════════════════════════ -->
+<section id="memberships">
+  <div class="section-inner">
+    <div class="memberships-header">
+      <h2 class="section-heading font-display">CHOOSE YOUR <span>TIER</span></h2>
+      <p class="section-sub">No commitments. Just results.</p>
+    </div>
+
+    <div class="tiers-grid">
+
+      <!-- Basic -->
+      <div class="tier-card">
+        <div class="tier-name font-display">BASIC</div>
+        <div class="tier-price">₹1,499<small>/mo</small></div>
+        <ul class="tier-features">
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Full gym access
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Locker room access
+          </li>
+          <li class="dim">
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Group Classes
+          </li>
+          <li class="dim">
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Personal Training
+          </li>
+        </ul>
+        <button class="btn-tier font-display">JOIN NOW</button>
+      </div>
+
+      <!-- Pro -->
+      <div class="tier-card featured" style="position:relative;">
+        <div class="tier-badge">Most Popular</div>
+        <div class="tier-name font-display">PRO</div>
+        <div class="tier-price">₹2,499<small>/mo</small></div>
+        <ul class="tier-features">
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Full gym access
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Locker room access
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Unlimited Group Classes
+          </li>
+          <li class="dim">
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Personal Training
+          </li>
+        </ul>
+        <button class="btn-tier-primary font-display">JOIN NOW</button>
+      </div>
+
+      <!-- Elite -->
+      <div class="tier-card">
+        <div class="tier-name font-display">ELITE</div>
+        <div class="tier-price">₹4,999<small>/mo</small></div>
+        <ul class="tier-features">
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Full gym access
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Locker room &amp; Sauna
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Unlimited Group Classes
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            4 PT Sessions / month
+          </li>
+          <li>
+            <svg class="icon-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Diet Plan Consultation
+          </li>
+        </ul>
+        <button class="btn-tier font-display">JOIN NOW</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     CLASS SCHEDULE
+═══════════════════════════════════════════════════════ -->
+<section id="schedule">
+  <div class="section-inner">
+    <div class="schedule-header">
+      <div>
+        <h2 class="section-heading font-display">THE <span>GRIND</span></h2>
+        <p class="section-sub">Weekly Class Schedule</p>
+      </div>
+      <p class="schedule-note">
+        Classes are designed for all levels. Arrive 10 minutes early. Spaces fill up fast.
+      </p>
+    </div>
+
+    <div class="classes-grid">
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Strength</span>
+          <span class="class-duration">60 Min</span>
+        </div>
+        <div class="class-name font-display">Morning Strength</div>
+        <div class="class-footer">
+          <span class="class-day">Mon / Wed / Fri</span>
+          <span class="class-time">06:00 AM</span>
+        </div>
+      </div>
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Cardio</span>
+          <span class="class-duration">45 Min</span>
+        </div>
+        <div class="class-name font-display">HIIT Explosion</div>
+        <div class="class-footer">
+          <span class="class-day">Mon / Thu</span>
+          <span class="class-time">08:00 AM</span>
+        </div>
+      </div>
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Mobility</span>
+          <span class="class-duration">60 Min</span>
+        </div>
+        <div class="class-name font-display">Yoga Flow</div>
+        <div class="class-footer">
+          <span class="class-day">Tue / Thu</span>
+          <span class="class-time">10:00 AM</span>
+        </div>
+      </div>
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Combat</span>
+          <span class="class-duration">60 Min</span>
+        </div>
+        <div class="class-name font-display">Boxing Fundamentals</div>
+        <div class="class-footer">
+          <span class="class-day">Mon / Wed / Fri</span>
+          <span class="class-time">05:00 PM</span>
+        </div>
+      </div>
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Mixed</span>
+          <span class="class-duration">60 Min</span>
+        </div>
+        <div class="class-name font-display">CrossFit WOD</div>
+        <div class="class-footer">
+          <span class="class-day">Daily</span>
+          <span class="class-time">06:30 PM</span>
+        </div>
+      </div>
+
+      <div class="class-card">
+        <div class="class-card-top">
+          <span class="class-type">Cardio</span>
+          <span class="class-duration">45 Min</span>
+        </div>
+        <div class="class-name font-display">Cycling Sprints</div>
+        <div class="class-footer">
+          <span class="class-day">Tue / Thu</span>
+          <span class="class-time">07:30 PM</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     SERVICES
+═══════════════════════════════════════════════════════ -->
+<section id="services">
+  <div class="services-heading">
+    <h2 class="section-heading font-display">EVERYTHING YOU <span>NEED</span></h2>
+  </div>
+
+  <!-- Row 1: Personal Training -->
+  <div class="service-row">
+    <div class="service-img">
+      <!--
+        Place your own image here. Recommended: 800×600px, high-contrast gym photo.
+        Example: <img src="images/personal-training.jpg" alt="Personal Training" />
+        If no image, the gradient placeholder is shown below.
+      -->
+      <img
+        src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80&auto=format&fit=crop"
+        alt="Personal Training"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
+      <div class="service-img-overlay"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#1a0000,#0a0a0a);z-index:-1;"></div>
+    </div>
+    <div class="service-text">
+      <div class="service-content">
+        <h3 class="service-title font-display">PERSONAL TRAINING</h3>
+        <p class="service-desc">
+          One-on-one coaching tailored to your exact biomechanics and goals. Learn the movements, lift heavier, and break plateaus with our head coaches by your side every rep of the way.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Group Classes -->
+  <div class="service-row">
+    <div class="service-img">
+      <img
+        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80&auto=format&fit=crop"
+        alt="Group Classes"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
+      <div class="service-img-overlay"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#0a0a0a,#1a0000);z-index:-1;"></div>
+    </div>
+    <div class="service-text">
+      <div class="service-content">
+        <h3 class="service-title font-display">GROUP CLASSES</h3>
+        <p class="service-desc">
+          Feed off the energy of the room. High-intensity interval training, strength camps, and conditioning sessions designed to push you to the limit — together. The group makes you better.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 3: Nutrition Coaching -->
+  <div class="service-row">
+    <div class="service-img">
+      <img
+        src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=900&q=80&auto=format&fit=crop"
+        alt="Nutrition Coaching"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
+      <div class="service-img-overlay"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#1a0000,#0a0a0a);z-index:-1;"></div>
+    </div>
+    <div class="service-text">
+      <div class="service-content">
+        <h3 class="service-title font-display">NUTRITION COACHING</h3>
+        <p class="service-desc">
+          You can't out-train a bad diet. Get customized meal plans, macro counting strategies, and consistent check-ins to fuel your performance and recovery at every stage of your journey.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4: Supplement Shop -->
+  <div class="service-row">
+    <div class="service-img">
+      <img
+        src="https://images.unsplash.com/photo-1579722820308-d74e571900a9?w=900&q=80&auto=format&fit=crop"
+        alt="Supplement Shop"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
+      <div class="service-img-overlay"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#0a0a0a,#1a0000);z-index:-1;"></div>
+    </div>
+    <div class="service-text">
+      <div class="service-content">
+        <h3 class="service-title font-display">SUPPLEMENT SHOP</h3>
+        <p class="service-desc">
+          Premium whey protein, pre-workouts, creatine, and BCAAs right at the front desk. Fuel up before you lift and recover immediately after — no extra trip required.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     TRAINERS
+═══════════════════════════════════════════════════════ -->
+<section id="trainers">
+  <div class="section-inner">
+    <div class="trainers-header">
+      <h2 class="section-heading font-display">MEET THE <span>COACHES</span></h2>
+      <p class="section-sub">Forged by the best.</p>
+    </div>
+
+    <div class="trainers-grid">
+
+      <div class="trainer-card">
+        <div class="trainer-img-wrap">
+          <div class="trainer-initial font-display">A</div>
+          <div class="trainer-gradient"></div>
+          <div class="trainer-info">
+            <div class="trainer-role">Head Coach</div>
+            <div class="trainer-name font-display">Ahmed Khan</div>
+            <div class="trainer-spec">Powerlifting &amp; Strength</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <div class="trainer-img-wrap">
+          <div class="trainer-initial font-display">S</div>
+          <div class="trainer-gradient"></div>
+          <div class="trainer-info">
+            <div class="trainer-role">Specialist</div>
+            <div class="trainer-name font-display">Sara Malik</div>
+            <div class="trainer-spec">Yoga &amp; Wellness</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <div class="trainer-img-wrap">
+          <div class="trainer-initial font-display">B</div>
+          <div class="trainer-gradient"></div>
+          <div class="trainer-info">
+            <div class="trainer-role">Coach</div>
+            <div class="trainer-name font-display">Bilal Rauf</div>
+            <div class="trainer-spec">Boxing &amp; Conditioning</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <div class="trainer-img-wrap">
+          <div class="trainer-initial font-display">N</div>
+          <div class="trainer-gradient"></div>
+          <div class="trainer-info">
+            <div class="trainer-role">Specialist</div>
+            <div class="trainer-name font-display">Nadia Yousaf</div>
+            <div class="trainer-spec">Nutrition &amp; CrossFit</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="contact-grid">
+
+    <!-- Info Column -->
+    <div>
+      <h2 class="contact-info-title font-display">CLAIM YOUR <span>SPOT</span></h2>
+      <p class="contact-info-desc">
+        Drop us a message for membership inquiries, personal training availability, or just to say you're ready to start.
+      </p>
+
+      <div class="contact-details">
+
+        <div class="contact-detail-item">
+          <div class="contact-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Location</div>
+            <div class="contact-detail-value">
+              Sidhu Hospital Rd, near Military Camp<br>Doraha, Punjab
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.41 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.08 6.08l1.28-1.28a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Phone</div>
+            <div class="contact-detail-value">+91 98765 43210</div>
+          </div>
+        </div>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">info@kaynation.com</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Form Column -->
+    <div class="contact-form-wrap">
+
+      <form id="contactForm" novalidate>
+
+        <div class="form-group">
+          <label class="form-label" for="contactName">Full Name</label>
+          <input
+            class="form-input"
+            type="text"
+            id="contactName"
+            name="name"
+            placeholder="John Doe"
+            autocomplete="name"
+          />
+          <div class="form-error" id="errContactName">Name must be at least 2 characters.</div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label class="form-label" for="contactEmail">Email</label>
+            <input
+              class="form-input"
+              type="email"
+              id="contactEmail"
+              name="email"
+              placeholder="john@example.com"
+              autocomplete="email"
+            />
+            <div class="form-error" id="errContactEmail">Please enter a valid email address.</div>
+          </div>
+          <div>
+            <label class="form-label" for="contactPhone">Phone</label>
+            <input
+              class="form-input"
+              type="tel"
+              id="contactPhone"
+              name="phone"
+              placeholder="+91 98765 43210"
+              autocomplete="tel"
+            />
+            <div class="form-error" id="errContactPhone">Phone must be at least 10 digits.</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contactMessage">Message</label>
+          <textarea
+            class="form-textarea"
+            id="contactMessage"
+            name="message"
+            placeholder="I'm interested in personal training..."
+          ></textarea>
+          <div class="form-error" id="errContactMessage">Message must be at least 10 characters.</div>
+        </div>
+
+        <button type="submit" class="btn-submit font-display">SEND MESSAGE</button>
+
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        <div class="form-success-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <h3 class="font-display">MESSAGE SENT</h3>
+        <p>We'll get back to you within 24 hours. Welcome to the Nation.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo font-display">KAY <span>NATION</span></div>
+
+    <div class="footer-socials">
+      <!-- Instagram -->
+      <a href="#" class="social-link" aria-label="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
+      <!-- Facebook -->
+      <a href="#" class="social-link" aria-label="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+        </svg>
+      </a>
+      <!-- Twitter / X -->
+      <a href="#" class="social-link" aria-label="Twitter">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43.36a9 9 0 0 1-2.88 1.1A4.52 4.52 0 0 0 16.11 0c-2.5 0-4.52 2.02-4.52 4.52 0 .35.04.7.11 1.03C7.69 5.37 4.07 3.58 1.64.9a4.53 4.53 0 0 0-.61 2.27c0 1.57.8 2.95 2.01 3.76a4.49 4.49 0 0 1-2.05-.57v.06c0 2.19 1.56 4.02 3.63 4.43a4.55 4.55 0 0 1-2.04.08 4.53 4.53 0 0 0 4.23 3.14A9.07 9.07 0 0 1 0 19.54a12.79 12.79 0 0 0 6.92 2.03c8.3 0 12.84-6.88 12.84-12.84 0-.2 0-.39-.01-.58A9.17 9.17 0 0 0 23 3z"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; <span id="year"></span> KAY Nation. All rights reserved.</span>
+    <span>Forged in Doraha, Punjab.</span>
+  </div>
+</footer>
+
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+<script src="kay-nation.js"></script>
+</body>
+</html>
